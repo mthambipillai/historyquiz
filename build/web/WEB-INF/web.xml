@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <context-param>
+        <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+        <param-value>resources.messages</param-value>
+    </context-param>
+    <context-param>
+        <description>The relative path to questions images</description>
+        <param-name>questionsImagesPath</param-name>
+        <param-value>img/questions/</param-value>
+    </context-param>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/WEB-INF/view/notfound.jsp</location>
+    </error-page>
+    <jsp-config>
+        <jsp-property-group>
+            <description>header and footer settings</description>
+            <url-pattern>/WEB-INF/view/*</url-pattern>
+            <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
+            <include-coda>/WEB-INF/jspf/footer.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+    <security-constraint>
+        <display-name>ProfileRelated</display-name>
+        <web-resource-collection>
+            <web-resource-name>ProfileRelatedPages</web-resource-name>
+            <description/>
+            <url-pattern>/profile</url-pattern>
+            <url-pattern>/rankings</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <description/>
+            <role-name>RegisteredUser</role-name>
+        </auth-constraint>
+    </security-constraint>
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <realm-name>historyquiz_realm</realm-name>
+        <form-login-config>
+            <form-login-page>/WEB-INF/view/login.jsp</form-login-page>
+            <form-error-page>/WEB-INF/view/error.jsp</form-error-page>
+        </form-login-config>
+    </login-config>
+    <security-role>
+        <description/>
+        <role-name>RegisteredUser</role-name>
+    </security-role>
+    <resource-ref>
+        <res-ref-name>jdbc/historyquiz</res-ref-name>
+        <res-type>javax.sql.ConnectionPoolDataSource</res-type>
+        <res-auth>Container</res-auth>
+        <res-sharing-scope>Shareable</res-sharing-scope>
+    </resource-ref>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/WEB-INF/view/notfound.jsp</location>
+    </error-page>
+</web-app>

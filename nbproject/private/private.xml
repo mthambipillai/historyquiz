@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/melkior/Documents/HistoryQuiz/web/WEB-INF/view/game_selection.jsp</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/web/index.jsp</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/web/WEB-INF/view/login.jsp</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/web/css/history_quiz_styles.css</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/web/WEB-INF/view/game.jsp</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/src/java/game/Quiz.java</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/src/java/controller/ControllerServlet.java</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/setup/sun-resources.xml</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/src/java/controller/ControllerActions.java</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/web/WEB-INF/web.xml</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/nbproject/build-impl.xml</file>
+            <file>file:/home/melkior/Documents/HistoryQuiz/src/conf/persistence.xml</file>
+        </group>
+    </open-files>
+</project-private>
