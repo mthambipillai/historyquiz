@@ -1,7 +1,7 @@
 # historyquiz
-Repository for my HistoryQuiz website that you can visit (if it is up at the moment) here : https://historyquiz.hidora.com/
+HistoryQuiz is a website to play and train for questions about history. you can visit it here (if it is up at the moment) : https://historyquiz.hidora.com/
 
-This website allows users to play and train for history quizzes. There are a little more than 300 questions for now, each question has subjects tags, which allows users to try quizzes of different subjects.
+There are a little more than 300 questions for now, each question has subjects tags, which allows users to try quizzes of different subjects.
 
 The users can create an account, save their scores and see top scores of all users. In game mode, each question in the selected set is asked once. In training mode, there is no end but the probability of reappearance of each question decreases if it is answered correctly and increases in the other case.
 
