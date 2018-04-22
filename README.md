@@ -1,4 +1,4 @@
-# historyquiz
+# HistoryQuiz
 HistoryQuiz is a website to play and train for questions about history. you can visit it here (if it is up at the moment) : https://historyquiz.hidora.com/
 
 There are a little more than 300 questions for now, each question has subjects tags, which allows users to try quizzes of different subjects.

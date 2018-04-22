@@ -7,7 +7,7 @@
   <jdbc-connection-pool allow-non-component-callers="false" associate-with-thread="false" connection-creation-retry-attempts="0" connection-creation-retry-interval-in-seconds="10" connection-leak-reclaim="false" connection-leak-timeout-in-seconds="0" connection-validation-method="auto-commit" datasource-classname="com.mysql.jdbc.jdbc2.optional.MysqlDataSource" fail-all-connections="false" idle-timeout-in-seconds="300" is-connection-validation-required="false" is-isolation-level-guaranteed="true" lazy-connection-association="false" lazy-connection-enlistment="false" match-connections="false" max-connection-usage-count="0" max-pool-size="32" max-wait-time-in-millis="60000" name="HistoryQuizPool" non-transactional-connections="false" pool-resize-quantity="2" res-type="javax.sql.ConnectionPoolDataSource" statement-timeout-in-seconds="-1" steady-pool-size="8" validate-atmost-once-period-in-seconds="0" wrap-jdbc-objects="false">
     <property name="URL" value="jdbc:mysql://10.102.1.84:3306/history_quiz"/>
     <!--<property name="URL" value="jdbc:mysql://node8605-historyquiz.hidora.com:11017/history_quiz"/>-->
-    <property name="User" value="historyquizuser"/>
-    <property name="Password" value="historyquizpassword"/>
+    <property name="User" value="***"/> <!--not showing it here because the repo is public-->
+    <property name="Password" value="***"/> <!--not showing it here because the repo is public-->
   </jdbc-connection-pool>
 </resources>
